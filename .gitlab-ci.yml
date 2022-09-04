@@ -31,11 +31,11 @@ cache:
 #     - npm run test
 
 
-# build-job:
-#   stage: build
-#   script:
-#     - npm install
-#     - npm run build
+build-job:
+  stage: build
+  script:
+    - npm install
+    - npm run build
 
 deploy-job:
   stage: deploy
