@@ -37,4 +37,10 @@ build-job:
     - npm install
     - npm run build
 
+deploy-job:
+  stage: deploy
+  script:
+    - npm serve build
+
+
 
